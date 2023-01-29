@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" source="Tile.tsx"/>
+ <layer id="1" name="Background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYETCuAAjjTCtwUDYicvu4W4vut30BqP2jto7au+ovaP2Dj57B6JOolWbhRQMAN/zAGg=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="2" x="128" y="32">
+   <polygon points="0,0 -64,0 -64,-32 0,-32"/>
+  </object>
+  <object id="4" x="32" y="64">
+   <polygon points="0,0 32,0 32,-64 -32,-64 -32,0"/>
+  </object>
+  <object id="5" x="0" y="576">
+   <polygon points="0,0 32,0 32,-512 0,-512"/>
+  </object>
+  <object id="6" x="0" y="640">
+   <polygon points="0,0 0,-64 64,-64 64,0"/>
+  </object>
+  <object id="7" x="64" y="640">
+   <polygon points="0,0 0,-32 800,-32 800,0"/>
+  </object>
+  <object id="8" x="864" y="640">
+   <polygon points="0,0 0,-64 96,-64 96,0"/>
+  </object>
+  <object id="9" x="896" y="576">
+   <polygon points="0,0 0,-32 64,-32 64,0"/>
+  </object>
+  <object id="10" x="928" y="544">
+   <polygon points="0,0 32,0 32,-384 0,-384"/>
+  </object>
+  <object id="11" x="896" y="160">
+   <polygon points="0,0 64,0 64,-32 0,-32"/>
+  </object>
+  <object id="12" x="864" y="128">
+   <polygon points="0,0 0,-64 96,-64 96,0"/>
+  </object>
+  <object id="13" x="864" y="64">
+   <polygon points="0,0 -32,0 -32,-64 96,-64 96,0"/>
+  </object>
+  <object id="14" x="832" y="32">
+   <polygon points="0,0 0,-32 -512,-32 -512,0"/>
+  </object>
+ </objectgroup>
+</map>
