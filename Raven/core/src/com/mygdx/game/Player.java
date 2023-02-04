@@ -30,4 +30,5 @@ public class Player {
         sprite.setPosition(position.x, position.y);
         sprite.draw(batch);
     }
+    
 }

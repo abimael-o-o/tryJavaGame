@@ -1,48 +1,22 @@
 package com.mygdx.game;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
-import com.badlogic.gdx.utils.viewport.ExtendViewport;
-
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.OrthographicCamera;
 public class Main extends Game {
-	SpriteBatch batch;
-	Texture img;
-	Player player;
-	Sprite grassSprite;
-	GameScreen gameScreen;
 
+	public static Main INSTANCE;
+	Scene01 gameScreen;
+	OrthographicCamera camera;
+
+	public Main(){
+		INSTANCE = this;
+	}
 	@Override
 	public void create () {
-		batch = new SpriteBatch();
-		img = new Texture("RavenPlayer-Sheet.png");
-		Texture grass = new Texture("Grass.png");
-		grassSprite = new Sprite(grass);
-		player = new Player(img);
+		this.camera = new OrthographicCamera();
+		this.camera.setToOrtho(false, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		
-		//Game Viewport
-		gameScreen = new GameScreen(player.position.x, player.position.y);
-		setScreen(gameScreen);
-	}
-
-	@Override
-	public void render () {
-		ScreenUtils.clear(0, 0, 0, 1, true); //Color screen needed for buffer
-		
-		//Render Objects
-		batch.begin();
-		gameScreen.Draw(batch, player.position.x, player.position.y);
-		grassSprite.draw(batch);
-		player.Draw(batch);
-		
-		batch.end();
-	}
-
-	@Override
-	public void dispose () {
-		batch.dispose();
-		img.dispose();
+		setScreen(new Scene01(camera));
 	}
 }

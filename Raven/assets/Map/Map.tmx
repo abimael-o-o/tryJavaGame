@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="9">
+ <tileset firstgid="1" source="Tile.tsx"/>
+ <layer id="1" name="Background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYGSgPmAkAtMbjNo7ai+t7B0IMGrv8Ld3pOWjUXtH7aWVveRiSuwBAPjMAD4=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="2" x="0" y="224">
+   <polygon points="0,0 32,0 32,-192 64,-192 64,-224 0,-224"/>
+  </object>
+  <object id="4" x="480" y="640">
+   <polygon points="0,0 0,-32 -480,-32 -480,0"/>
+  </object>
+  <object id="5" x="0" y="608">
+   <polygon points="0,0 32,0 32,-224 0,-224"/>
+  </object>
+  <object id="6" x="800" y="640">
+   <polygon points="0,0 0,-32 160,-32 160,0"/>
+  </object>
+  <object id="7" x="928" y="608">
+   <polygon points="0,0 0,-608 32,-608 32,0 0,0"/>
+  </object>
+  <object id="8" x="928" y="32">
+   <polygon points="0,0 0,-32 -224,-32 -224,0"/>
+  </object>
+ </objectgroup>
+</map>
