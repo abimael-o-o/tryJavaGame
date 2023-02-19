@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="25">
+ <tileset firstgid="1" source="MazeTileset.tsx"/>
+ <objectgroup id="4" name="Objects">
+  <object id="3" x="0" y="672">
+   <polygon points="0,0 16,0 16,-672 0,-672"/>
+  </object>
+  <object id="4" x="16" y="672">
+   <polygon points="0,0 0,-16 656,-16 656,0"/>
+  </object>
+  <object id="5" x="656" y="656">
+   <polygon points="0,0 16,0 16,-656 0,-656"/>
+  </object>
+  <object id="6" x="656" y="16">
+   <polygon points="0,0 0,-16 -640,-16 -640,0"/>
+  </object>
+  <object id="7" x="16" y="656">
+   <polygon points="0,0 0,-32 48,-32 48,0"/>
+  </object>
+  <object id="11" x="48" y="560">
+   <polygon points="0,0 176,0 176,-16 0,-16"/>
+  </object>
+  <object id="12" x="128" y="656">
+   <polygon points="0,0 0,-80 16,-80 16,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Spawns">
+  <object id="2" name="PlayerSpawn" x="87.0909" y="601.576">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Walls" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzFWUFqxDAMTMmp5JDTHkoPJf//ZBuoQExH0sh2yYBY1tbKY3ksO5t927bXj70ndvfvpH0n9iJWxWPwY1icCorPf8Lmpfg9Cct9had53hxPwW+E5+FsFucgh9Wo5qLqcyT2SkT6XLVeo8CxI32u5jgb70l9dtZsRp8roNYEtX4+DbV++vl+LLAuVH1GsVm7ojmVq8VS9YlxvwJTfbo5VfXp4yIfBOvHti5PVZ8ZT8zlCp54fx3RZ5TPbJ0Zz9H6ib/BPY48kQ/qfA98MZ6C7Hz3iPJ5kDaPLJ8drNBn1GbtbG2RZ7X+ps+qFkc8o3xlvoxnBayfSj2PeEb6ZPW14on5RX2yPGJ+I56sPmX5zPa7ev/0vofAM/oe9XXXfbZ+RjwP0jbC09bE61O94/g9HNXSqtYrPL1/VD+r/V7VzWrcLs9InxlPi6HmsrvXkeexjd8/O/fH6Pyt4HmaPqvzQKlXFTJfVqOYPo3v/flGOGRjMM4jzxrIlenT/muM7kz3OFfC085e1jcKz7Ojz8/tL1erbZfzm+GGsQ14vqt7NzsfO5ph3NgY3ed39Vy84flWZwebi1I/PfxajzzDMSD/Coo+2RorOsh8onGuX0Nf1GdVx6KxTsFH6YvmxN61IBT9Zj5qrrP8Y/wOT8v75aziOQrcQyy//l0Te1+Fxt59qfGysb8Bhroq4w==
+  </data>
+ </layer>
+</map>

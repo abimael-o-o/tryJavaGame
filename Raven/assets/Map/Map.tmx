@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="9">
- <tileset firstgid="1" source="Tile.tsx"/>
- <layer id="1" name="Background" width="30" height="20">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="48" tileheight="48" infinite="0" nextlayerid="5" nextobjectid="25">
+ <tileset firstgid="1" source="BTileTest.tsx"/>
+ <tileset firstgid="2" source="TileSet.tsx"/>
+ <layer id="1" name="Background" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYGSgPmAkAtMbjNo7ai+t7B0IMGrv8Ld3pOWjUXtH7aWVveRiSuwBAPjMAD4=
+   eJztmEEOhTAIBev9L/23LvC36AOhziRdYeFNY2ziMcY4ApaHiPnZa0ffSDwzIvNnuKrn4ItvRo6sOU++PfjGUMk3A/W54ru+LwN8Nf3wne/LoJJvt/vo3A/f3BxZc/D174vIcTeXd44q32rmf/VKvl3Bd2/w3ZvdfGce+PYGX7uOb0/wtev49gRfu45vT/C16xG+d/75qNZqporZu/i+gdq3OvjadXx9farwlq/yfDy9sn0jvtHe+8bTa/acN5sC5V232/u82gvfZzO7+FbOqOz1BV/LtVpGZS9862VU9rryVZxBFV+PY8bqkrO77w8R1wMJ
   </data>
  </layer>
+ <objectgroup id="3" name="Spawns">
+  <object id="22" name="PlayerSpawn" x="1555.33" y="2711.33">
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup id="2" name="Objects">
-  <object id="2" x="0" y="224">
-   <polygon points="0,0 32,0 32,-192 64,-192 64,-224 0,-224"/>
+  <object id="15" x="0" y="2880">
+   <polygon points="0,0 48,0 48,-768 0,-768"/>
   </object>
-  <object id="4" x="480" y="640">
-   <polygon points="0,0 0,-32 -480,-32 -480,0"/>
+  <object id="16" x="48" y="2880">
+   <polygon points="0,0 0,-48 624,-48 624,0"/>
   </object>
-  <object id="5" x="0" y="608">
-   <polygon points="0,0 32,0 32,-224 0,-224"/>
-  </object>
-  <object id="6" x="800" y="640">
-   <polygon points="0,0 0,-32 160,-32 160,0"/>
-  </object>
-  <object id="7" x="928" y="608">
-   <polygon points="0,0 0,-608 32,-608 32,0 0,0"/>
-  </object>
-  <object id="8" x="928" y="32">
-   <polygon points="0,0 0,-32 -224,-32 -224,0"/>
+  <object id="17" x="1392" y="2400">
+   <polygon points="0,0 0,-336 240,-336 240,0"/>
   </object>
  </objectgroup>
 </map>

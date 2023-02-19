@@ -24,7 +24,7 @@ public class TileMapHelper {
         this.gameScreen = gameScreen;
     }
     public OrthogonalTiledMapRenderer setuMap(){
-        tiledMap = new TmxMapLoader().load("Map/Map.tmx");
+        tiledMap = new TmxMapLoader().load("Map.tmx");
         parseMapObjects(tiledMap.getLayers().get("Objects").getObjects());
         return new OrthogonalTiledMapRenderer(tiledMap);
     }
