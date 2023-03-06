@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="9">
+ <tileset firstgid="1" source="TileSet.tsx"/>
+ <layer id="1" name="Background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNgBExQTq44YtaTaTQiPglFAL8BIAJOillRMrJsAd5AAPw==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="5" x="128" y="416" width="320" height="32"/>
+  <object id="6" x="0" y="640">
+   <polygon points="0,0 0,-32 640,-32 640,0"/>
+  </object>
+  <object id="8" gid="2" x="128" y="544" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="3" name="Spawns">
+  <object id="1" name="PlayerSpawn" x="67.333" y="594">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

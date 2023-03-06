@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="48" tileheight="48" infinite="0" nextlayerid="5" nextobjectid="25">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="48" tileheight="48" infinite="0" nextlayerid="5" nextobjectid="26">
  <tileset firstgid="1" source="BTileTest.tsx"/>
  <tileset firstgid="2" source="TileSet.tsx"/>
  <layer id="1" name="Background" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmEEOhTAIBev9L/23LvC36AOhziRdYeFNY2ziMcY4ApaHiPnZa0ffSDwzIvNnuKrn4ItvRo6sOU++PfjGUMk3A/W54ru+LwN8Nf3wne/LoJJvt/vo3A/f3BxZc/D174vIcTeXd44q32rmf/VKvl3Bd2/w3ZvdfGce+PYGX7uOb0/wtev49gRfu45vT/C16xG+d/75qNZqporZu/i+gdq3OvjadXx9farwlq/yfDy9sn0jvtHe+8bTa/acN5sC5V232/u82gvfZzO7+FbOqOz1BV/LtVpGZS9862VU9rryVZxBFV+PY8bqkrO77w8R1wMJ
+   eJztmMEOwyAMQ9v9/0fvukMoeHVMgmwpp4DjR6si9b6u604oRBnz1XUib6aQGZn5FazsOeY1ryKHas6bb495c1SJVyH2uZp3fZ9C5uX4mXe+T6FKvN3uo18/82pzqOaYF9+XkePfXOgcVr7VzE/9SrxdZd6zZd6zdRrvjMO8vWXeuG/enjJv3DdvT5k37j+t+wyqovx84755ebN31Gqmitm78O4Qm7e6zBv3zYv5VNEuXub5IF5q3oxvNHrfIF6zdWg2hph33Wnv86qXed/N7MJbOSPTS8k7+n8w+ofAyhWxor6jvBWfL4N35l3Jy7y8M6jCizAqqkvO7rxfnn4DKw==
   </data>
  </layer>
  <objectgroup id="3" name="Spawns">
@@ -19,8 +19,6 @@
   <object id="16" x="48" y="2880">
    <polygon points="0,0 0,-48 624,-48 624,0"/>
   </object>
-  <object id="17" x="1392" y="2400">
-   <polygon points="0,0 0,-336 240,-336 240,0"/>
-  </object>
+  <object id="25" x="1396.97" y="2206.06" width="112.121" height="106.061"/>
  </objectgroup>
 </map>

@@ -18,7 +18,7 @@ public class DesktopLauncher {
 		fullScreenY = Lwjgl3ApplicationConfiguration.getDisplayMode().height;
 		config.setWindowedMode(userWidth, userHeight);
 		config.setWindowSizeLimits(userWidth, userHeight, fullScreenX, fullScreenY);
-		config.setTitle("Raven");
+		config.setTitle("Witch");
 		new Lwjgl3Application(new Main(), config);
 	}
 }
